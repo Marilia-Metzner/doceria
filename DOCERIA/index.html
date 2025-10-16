@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#menu">MENU</a></li>
+            <li class="item"><a href="#carrinho">CARRINHO</a></li>
+        </ul>
+    </nav>
+
+    <main class="banner" id="home">
+        <div class="img">
+            <img class="logo" src="src/img/logo.png">
+        </div>
+        <button class="botao">
+            <h1><a href="#menu">Clique aqui e receba em casa</a></h1>
+        </button>
+    </main>
+
+    <div id="menu">
+        <div class="menuDoces">
+            <div class="donuts">
+                <img class="donut" src="src/img/download (1).jfif">
+
+                <div class="texto">
+                    <h1>Clássico de Chocolate</h1>
+                    <p>Massa fofinha coberta com generosa camada de chocolate.</p>
+
+                    <div class="preco">
+                        <h3>R$ 12,90</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd1" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+
+            <div class="donuts">
+                <img class="donut" src="src/img/download (2).jfif">
+
+                <div class="texto">
+                    <h1>Baunilha Crocante</h1>
+                    <p>Cobertura de baunilha com pedacinhos de amendoim crocante.</p>
+
+                    <div class="preco">
+                        <h3>R$ 12,30</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd2" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+
+            <div class="donuts">
+                <img class="donut" src="src/img/download (3).jfif">
+
+                <div class="texto">
+                    <h1>Dueto de Chocolate & Amendoim</h1>
+                    <p>Combo com dois donuts coberta com generosa camada de chocolate com amendoim.</p>
+
+                    <div class="preco">
+                        <h3>R$ 35,40</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd3" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+
+            <div class="donuts">
+                <img class="donut" src="src/img/download (4).jfif">
+
+                <div class="texto">
+                    <h1>Blueberry Glaceado</h1>
+                    <p>Cobertura de mirtilo fresco, com mertilos na cobertura.</p>
+
+                    <div class="preco">
+                        <h3>R$ 35,90</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd4" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+
+            <div class="donuts">
+                <img class="donut" src="src/img/download (5).jfif">
+
+                <div class="texto">
+                    <h1>Cítrico com Chocolate</h1>
+                    <p>Sabor único que combina laranja fresca com cobertura de chocolate.</p>
+
+                    <div class="preco">
+                        <h3>R$ 15,30</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd5" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+
+            <div class="donuts">
+                <img class="donut"
+                    src="src/img/Download AI generated Tasty donut with icing_ AI Generative for free.jfif">
+
+                <div class="texto">
+                    <h1>Morango Granulado</h1>
+                    <p>Donut coberto com glacê de morango e granulado colorido.</p>
+
+                    <div class="preco">
+                        <h3>R$ 10,90</h3>
+                    </div>
+
+                    <br>
+                    <input id="qtd6" placeholder="  Quantidade" type="number">
+                </div>
+            </div>
+            <button class="comprar" id="irAoCarrinho"><a href="#carrinho">IR AO CARRINHO</a></button>
+        </div>
+    </div>
+
+    <div class="carrinho" id="carrinho">
+        <div class="quantidade">
+            <h1>Quantidade</h1>
+            <div class="texto2">
+                <h3 id="somaQTD"></h3>
+            </div>
+        </div>
+
+        <button class="botaocompra">COMPRAR R$<span id="preco"></span></button>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
